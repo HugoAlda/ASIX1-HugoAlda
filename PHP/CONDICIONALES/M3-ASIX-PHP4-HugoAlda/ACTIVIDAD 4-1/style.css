@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+}
+
+.verdadero {
+    color: rgb(16, 201, 16);
+}
+
+.falso {
+    color: red;
+}

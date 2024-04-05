@@ -1,0 +1,24 @@
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 4px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid black;
+}
+
+th {
+    background-color: blue;
+    color: white;
+}
+
+p {
+    color: rgb(<?php echo random_int(0, 255); ?>, <?php echo random_int(0, 255); ?>, <?php echo random_int(0, 255); ?>);
+}
+
+h1 {
+    text-align: center;
+}

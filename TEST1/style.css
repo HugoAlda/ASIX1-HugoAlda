@@ -1,0 +1,162 @@
+/* Estilos generales */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(137, 133, 133);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilos index.php */
+
+.contenedor {
+    background-color: rgb(64, 63, 63);
+    width: 400px;
+    height: 150px;
+    text-align: center;
+    margin-left: 560px;
+    margin-top: 80px;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+a {
+    color: white;
+}
+
+/* Estilos login.php */
+
+.contenedor-login {
+    background-color: rgb(64, 63, 63);
+    width: 400px;
+    height: 210px;
+    text-align: center;
+    margin-left: 560px;
+    margin-top: 80px;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+.iniciar-sesion {
+    /* background-color: blue; */
+    flex-direction: row;
+    width: 100%;
+    height: 180px;
+}
+
+.form-iniciar-sesion {
+    text-align: justify;
+    padding-left: 70px;
+}
+
+/* Estilos crear-cuenta.php */
+
+.contenedor-crear-cuenta {
+    background-color: rgb(64, 63, 63);
+    width: 400px;
+    height: 330px;
+    text-align: center;
+    margin-left: 560px;
+    margin-top: 80px;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+.crear-cuenta {
+    /* background-color: yellow; */
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+}
+
+.form-crear-cuenta {
+    text-align: justify;
+    padding-left: 40px;
+}
+
+/* Estilos page1.php */
+
+/* Header */
+
+header {
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1000; /* Asegura que la barra de navegación esté por encima del contenido */
+}
+
+.img-user {
+    width: 30px; /* Tamaño de la imagen */
+    text-align: right;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/* Contenido de la página */
+
+.wrapper-1 {
+    background-color: blue;
+    padding-top: 50px;
+}
+
+.content-1 {
+    padding: 20px;
+}
+
+.wrapper-2 {
+    color: black;
+    background-color: white;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.content-2 {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.img-search{
+    width: 19px;
+}
+
+.btn {
+    background-color: white;
+}
+
+/* Footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000; /* Asegura que el footer esté por encima del contenido */
+}
+
+.footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 0;
+}

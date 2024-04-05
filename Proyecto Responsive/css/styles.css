@@ -1,0 +1,41 @@
+html {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.column-1 {
+    width: 33.33%;
+    float: left;
+}
+
+img {
+    width: 100%;
+}
+
+.img-1 {
+    height: 50vh;
+    background-image: url(./../img/arya-krisdyantara-LTEfj149DLQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2 {
+    height: 50vh;
+    background-image: url(./../img/arya-krisdyantara-LTEfj149DLQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-3 {
+    height: 50vh;
+    background-image: url(./../img/arya-krisdyantara-LTEfj149DLQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
